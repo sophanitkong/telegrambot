@@ -15,7 +15,7 @@ bot.onText(/\/start/, (msg) => {
         });
 
         bot.on("message",(msg)=>{
-            if(msg.text.toString().toLowerCase() == "1234")
+            if(msg.text.toString().toLowerCase() == "0000")
             bot.sendMessage(msg.chat.id, `Your Telegram Group ID: \`${msg.chat.id}\``);
         });
         
