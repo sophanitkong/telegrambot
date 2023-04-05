@@ -16,6 +16,6 @@ bot.onText(/\/start/, (msg) => {
 
         bot.on("message",(msg)=>{
             if(msg.text.toString().toLowerCase() == "0000")
-            bot.sendMessage(msg.chat.id, `Your Telegram Group ID: \`${msg.chat.id}\``);
+            bot.sendMessage(msg.chat.id, `🎉 Congratulations! You’ve successfully linked KONG SOPHANIT to this Telegram group. All Canadia Pay payment notifications will appear here. Thank you for choosing Canadia Bank.`);
         });
         
