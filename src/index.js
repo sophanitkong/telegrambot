@@ -14,7 +14,7 @@ bot.onText(/\/start/, (msg) => {
   );
 });
 
-bot.on(/\/showmyid/, (msg) => {
+bot.onText(/\/showmyid/, (msg) => {
   bot.sendMessage(msg.chat.id, `Your Telegram Group ID: \`${msg.chat.id}\``);
 });
 
